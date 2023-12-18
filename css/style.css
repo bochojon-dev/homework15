@@ -1,123 +1,161 @@
-@font-face {
-  font-family: Roboto;
-  src: url(../fonts/Roboto-Regular.ttf);
+.par-1 {
+  color: white;
+  /* width: 400px; */
+  background-color: rgb(67, 99, 136);
 }
+
+.par-2 {
+  color: green;
+}
+
+.heading-2 {
+  /* COLOR NAME */
+  color: blue;
+}
+
+.par-3 {
+  /*  RGB COLORS*/
+  /* color: rgb(0, 0, 0); */
+  color: rgb(255, 255, 255);
+  /* background-color: rgb(0, 0, 0); */
+  /* background-color: rgb(255, 0, 0); */
+  /* background-color: rgb(0, 255, 0); */
+  /* background-color: rgb(0, 0, 255); */
+  /* background-color: rgb(0, 255, 255); */
+  /* background-color: rgb(255, 255, 0); */
+  /* background-color: rgb(255, 0, 255); */
+  /* background-color: rgb(150, 150, 150); */
+  /* background-color: rgba(30, 124, 201, 0.815); */
+
+  /* HEX COLORS */
+  /* background-color: #000000; */
+  /* background-color: #ffffff; */
+  /* background-color: #ff0000; */
+  /* background-color: #00ff00; */
+  /* background-color: #0000ff; */
+  /* background-color: #ff00ff; */
+  /* background-color: #ffff00; */
+  /* background-color: #00ffff; */
+  /* background-color: #777777; */
+  /* background-color: #0000ffff; */
+  /* background-color: #fff; */
+  /* background-color: #fa7; */
+  /* background-color: hsl(147, 50%, 47%); */
+  background-color: hsla(147, 50%, 47%, 1);
+}
+
+heading-3 {
+  background-color: aqua;
+}
+
+.span-1 {
+  background-color: blue;
+  color: #fff;
+}
+
+.text-box {
+  text-align: center;
+}
+
+/* * {
+  color: red;
+  background-color: #000;
+  text-align: center;
+} */
+
+.text-box-2 p {
+  width: 300px;
+  background: #ccc;
+}
+
+.text-box-2 > p {
+  background: gold;
+}
+
+/* .text-box-content + p {
+  color: red;
+} */
+
+.text-box-content ~ p {
+  color: red;
+}
+
+a[href="https://kun.uz"]
+{
+  color: green;
+  font-size: 24px;
+}
+a[href="https://daryo.uz"]
+{
+  color: blue;
+  font-size: 36px;
+}
+
+/*  SPECIFICITY & PRIORITY */
+
+/* 
+  *            00001
+ELEMENT        00010
+CLASS          00100
+ID             01000
+!IMPORTANT     10000
+*/
+
 * {
-  max-width: 1440px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container {
-  max-width: 1440;
-  margin: 0 auto;
-  padding: 0 20px;
+  color: black;
 }
 
-.img {
-  height: 57px;
-  margin-left: 160px;
-}
-.nomlar {
-    color: #25468A;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.nomlar:first-child{
-    color: #FFF;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.btn2 {
-    padding: 9 px 18px;
-  color: #25468a;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-right: 160px;
-}
-.heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(19, 145, 206, 0.70);
-  
-.yozuvlar {
-  display: flex;
-  justify-content: flex-end;
-  gap: 0 32px;
+p {
+  color: green;
 }
 
-
-/* USTOZ NIMAGADIR SHU QISMIGA STYLE BERSAM ISLAMADI */
-
-
-/* .Hero{
-    display: flex;
+#par-5 {
+  color: red;
 }
 
-.yozuvlar1{
-    /* display: flex; */
-    /* flex-basis: 560px; */
-    /* background: rgba(19, 145, 206, 0.70); */
-/* }
-.h1{
-    color: #25468A;
-font-family: Roboto;
-font-size: 92px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-} */
-/* .nom2{
-    color: #3B4A6B;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.par-5 {
+  color: blue;
 }
-.nom1{
-    color: #3B4A6B;
-font-family: Roboto;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-} */
-/* .btn1{
-    color: #3B4A6B;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.72px;
-} */ 
-/* paragraflar{
-    display: flex;
+
+/* TEXT DECORATION */
+.par-6 {
+  font-size: 36px;
+  color: #000;
+  /* text-decoration-line: line-through; */
+  /* text-decoration-line: overline; */
+  text-decoration-line: underline;
+  /* text-decoration-line: none; */
+
+  /* text-decoration-color: red; */
+
+  /* text-decoration-style: dashed; */
+  /* text-decoration-style: dotted; */
+  /* text-decoration-style: wavy; */
+  /* text-decoration-style: double; */
+  text-decoration-style: solid;
+
+  /* text-decoration-thickness: 5px; */
+
+  /* SHORTHAND */
+  text-decoration: underline red solid 5px;
+
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+
+  /* text-indent: 100px; */
+  /* letter-spacing: 20px; */
+  /* line-height: 54px; */
+  /* word-spacing: 200px; */
+  /* white-space: wrap; */
+  /* white-space: nowrap; */
+  /* text-shadow: 2px 2px 5px #00f; */
 }
-.paragraf{
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.88px;
-border-radius: 8px;
-background: #1391CE;
 
+.par-6::first-line {
+  background: gold;
+}
 
-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 10px 15px 0px rgba(31, 100, 133, 0.10);
-} */
-
+.par-6::first-letter {
+  font-size: 96px;
+}
