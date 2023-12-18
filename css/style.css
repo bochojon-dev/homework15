@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.img {
+  height: 57px;
+  margin-left: 160px;
+}
+.nomlar {
+    color: #25468A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nomlar:first-child{
+    color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btn2 {
+    padding: 9 px 18px;
+  color: #25468a;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 160px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(19, 145, 206, 0.70);
+  
+.yozuvlar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 32px;
+}
+
+
+/* USTOZ NIMAGADIR SHU QISMIGA STYLE BERSAM ISLAMADI */
+
+
+/* .Hero{
+    display: flex;
+}
+
+.yozuvlar1{
+    /* display: flex; */
+    /* flex-basis: 560px; */
+    /* background: rgba(19, 145, 206, 0.70); */
+/* }
+.h1{
+    color: #25468A;
+font-family: Roboto;
+font-size: 92px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+/* .nom2{
+    color: #3B4A6B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nom1{
+    color: #3B4A6B;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} */
+/* .btn1{
+    color: #3B4A6B;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.72px;
+} */ 
+/* paragraflar{
+    display: flex;
+}
+.paragraf{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.88px;
+border-radius: 8px;
+background: #1391CE;
+
+
+box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 10px 15px 0px rgba(31, 100, 133, 0.10);
+} */
+
